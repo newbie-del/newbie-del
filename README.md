@@ -496,3 +496,235 @@ Shipping code is not.
 <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=160&color=0:000000,50:0F172A,100:06B6D4"/>
 
 </p>
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=newbie-del&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=newbie-del&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img width="70%" src="https://streak-stats.demolab.com?user=newbie-del&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 📈 Contribution Activity
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=newbie-del&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=00F5D4&point=FFFFFF"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=newbie-del&theme=tokyonight&column=4&margin-w=15&margin-h=15&no-frame=true"/>
+
+</div>
+
+---
+
+# ⚡ Engineering Dashboard
+
+```text
+╔══════════════════════════════════════════════════════════╗
+║                     SYSTEM STATUS                       ║
+╠══════════════════════════════════════════════════════════╣
+║ USERNAME      :: newbie-del                            ║
+║ MODE          :: BUILD                                 ║
+║ AI            :: ENABLED                               ║
+║ STACK         :: Next.js • React • TypeScript          ║
+║ DATABASE      :: PostgreSQL • Neon                     ║
+║ DEPLOYMENT    :: Vercel                                ║
+║ TERMINAL      :: ONLINE                                ║
+║ SECURITY      :: LEARNING                              ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+---
+
+# 📦 Featured Repositories
+
+<div align="center">
+
+<a href="https://github.com/newbie-del/ConnexAI">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=newbie-del&repo=ConnexAI&theme=tokyonight&hide_border=true"/>
+
+</a>
+
+<a href="https://github.com/newbie-del/FlowforgeAI">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=newbie-del&repo=FlowforgeAI&theme=tokyonight&hide_border=true"/>
+
+</a>
+
+<br><br>
+
+<a href="https://github.com/newbie-del/Save-Grow">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=newbie-del&repo=Save-Grow&theme=tokyonight&hide_border=true"/>
+
+</a>
+
+</div>
+
+---
+
+# 📈 Learning Roadmap
+
+```text
+Frontend        ██████████████████████ 100%
+
+Backend         ███████████████████░░░ 90%
+
+Databases       ██████████████████░░░░ 85%
+
+AI              ████████████████░░░░░░ 75%
+
+Cloud           ██████████░░░░░░░░░░░░ 50%
+
+Cybersecurity   ████████░░░░░░░░░░░░░░ 40%
+```
+
+---
+
+# ⚙️ Tech Universe
+
+<div align="center">
+
+| Frontend | Backend | Database | AI | Tools |
+|-----------|----------|-----------|----|--------|
+| React | Node.js | PostgreSQL | OpenAI | Git |
+| Next.js | Express | Neon | Claude | Docker |
+| Tailwind | Prisma | Firebase | Gemini | Linux |
+| TypeScript | REST APIs | Drizzle | LangChain | Vercel |
+
+</div>
+
+---
+
+# 🌍 Open Source Journey
+
+```text
+2024
+
+Started learning Web Development
+
+↓
+
+Built first React applications
+
+↓
+
+Started AI Development
+
+↓
+
+Built Connex AI
+
+↓
+
+Built Flowforge AI
+
+↓
+
+Built Save & Grow
+
+↓
+
+2026
+
+Learning Cloud + Cybersecurity
+```
+
+---
+
+# 💡 Philosophy
+
+> Build things that people actually use.
+
+> Ship fast. Learn faster.
+
+> Small improvements every day become massive over time.
+
+---
+
+# ⚡ Fun Facts
+
+```bash
+> developer --info
+
+Name          : Abhishek Ghatekar
+
+Favorite IDE  : VS Code
+
+OS            : Windows + Linux
+
+Languages     : TypeScript JavaScript Python
+
+Dream         : Build world-class software.
+
+Coffee        : Required ☕
+
+Debugging     : Daily
+
+Learning      : Never Stops
+```
+
+---
+
+# 📡 Visitor Counter
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=newbie-del&label=PROFILE+VIEWS&style=for-the-badge&color=blueviolet"/>
+
+</div>
+
+---
+
+# 🤝 Let's Connect
+
+<div align="center">
+
+<a href="https://github.com/newbie-del">
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+
+</a>
+
+<a href="#">
+
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+
+</a>
+
+<a href="#">
+
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel"/>
+
+</a>
+
+<a href="mailto:your@email.com">
+
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
+
+</a>
+
+</div>
