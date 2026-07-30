@@ -15,6 +15,8 @@ I’m Abhishek, a computer engineering student focused on full-stack development
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=newbie-del&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
+<p><img align="center" src="https://github-readme-streak-stats.demolab.com/?user=nowarkcodes&theme=dark" alt="newbie-del" /></p>
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
