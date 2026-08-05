@@ -171,10 +171,10 @@ open_to:
 
 ### `> github-stats --live`
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=newbie-del&show_icons=true&hide_border=true&title_color=FF6B35&icon_color=FFB86B&text_color=E6EDF3&bg_color=0B0F14" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=newbie-del&hide_border=true&background=0B0F14&stroke=FF6B35&ring=FFB86B&fire=FF6B35&currStreakLabel=FF6B35" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=newbie-del&show_icons=true&hide_border=true&title_color=FF6B35&icon_color=FFB86B&text_color=E6EDF3&bg_color=0B0F14" />
+<img height="165" src="https://streak-stats.demolab.com?user=newbie-del&hide_border=true&background=0B0F14&stroke=FF6B35&ring=FFB86B&fire=FF6B35&currStreakLabel=FF6B35&currStreakNum=E6EDF3&sideStreakNum=E6EDF3&sideLabels=E6EDF3&dates=8A94A3" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=newbie-del&bg_color=0B0F14&color=FF6B35&line=FF6B35&point=FFB86B&area=true&hide_border=true" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=newbie-del&bg_color=0B0F14&color=FF6B35&line=FF6B35&point=FFB86B&area=true&hide_border=true&cache_seconds=3600" width="98%"/>
 
 </div>
 
