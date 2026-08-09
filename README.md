@@ -149,15 +149,7 @@ open_to:
 
 ### 🏆 `cat achievements.log`
 
-<img src="https://github-profile-trophy.vercel.app/?username=newbie-del&theme=dracula&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1&column=6" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0B0F14&height=120&section=footer" />
+<img src="https://github-trophies.vercel.app/?username=newbie-del&theme=dracula&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1&column=6" /> </div> <br/> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0B0F14&height=120&section=footer" />
 
 <sub>Built with ❤️ and a lot of ☕ — always shipping something new.</sub>
 
