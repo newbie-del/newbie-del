@@ -104,60 +104,6 @@
 
 <div align="center">
 
-### 🚀 Featured Builds
-
-</div>
-
-<table>
-<tr>
-<td width="100%">
-
-#### 🎙️ Connex AI — AI-Powered Meeting Assistant Platform
-
-SaaS platform with custom AI agents, real-time participant management, and secure transcripts, recordings, summaries, and meeting chat — built for online education, so students who miss a class can catch up.
-
-`Next.js 15` `React` `TypeScript` `tRPC` `Drizzle ORM` `PostgreSQL` `LiveKit` `Gemini Live` `Inngest` `Better Auth` `Polar`
-
-> Built the low-latency voice assistant with **LiveKit Agents + Gemini Live**, plus an event-driven **Inngest** pipeline automating transcript processing, speaker identification, AI summaries, and post-meeting artifacts. Implemented OAuth, subscription billing, and usage limits via **Better Auth** and **Polar**.
-
-**Impact:** Low-latency voice assistant with speaker-attributed real-time transcripts
-📎 [View on GitHub](https://github.com/newbie-del)
-
-</td>
-</tr>
-<tr>
-<td width="100%">
-
-#### 🔀 FlowForge AI — Workflow Automation & Integration Platform
-
-Drag-and-drop workflow automation platform with asynchronous execution, execution history, and real-time monitoring.
-
-`Next.js 15` `React` `TypeScript` `PostgreSQL` `Prisma` `React Flow` `Inngest` `Better Auth` `Polar` `Sentry`
-
-> **24+ workflow nodes** spanning AI models, HTTP APIs, Google Workspace, Slack, Stripe, Discord, Telegram, browser automation, and code. Includes an AI workflow builder that converts natural-language prompts into validated, executable workflows, plus encrypted credential storage and production monitoring.
-
-📎 [github.com/newbie-del/FlowForge](https://github.com/newbie-del/FlowForge)
-
-</td>
-</tr>
-<tr>
-<td width="100%">
-
-#### 📈 Blinkit Sales Analytics Dashboard
-
-End-to-end analytics pipeline analyzing **8,523 grocery sales records (₹2.6 Cr)** across 10 outlets, 16 categories, and 1,392 products.
-
-`MySQL` `SQL — joins · CTEs · window functions` `Excel — PivotTables · PivotCharts`
-
-> Identified a **13.3% sales uplift** linked to shelf visibility and a **10.9× revenue gap** between outlet formats. Delivered an executive dashboard with 10 PivotTables, 9 interactive charts, and 6 slicers.
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
 
 ### 🛠️ `tail experience.log`
 
