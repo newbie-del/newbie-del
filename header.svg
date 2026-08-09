@@ -1,0 +1,124 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F14"/>
+      <stop offset="55%" stop-color="#0E141B"/>
+      <stop offset="100%" stop-color="#0B0F14"/>
+    </linearGradient>
+
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6B35" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB86B"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur">
+        <animate attributeName="stdDeviation" values="2.5;5;2.5" dur="3.2s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1200" height="300" rx="10"/>
+    </clipPath>
+
+    <clipPath id="typeClip">
+      <rect x="0" y="0" width="0" height="40">
+        <animate attributeName="width" from="0" to="560" begin="0.4s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+    <g stroke="#FF6B35" stroke-opacity="0.06" stroke-width="1">
+      <g>
+        <line x1="0" y1="40" x2="1200" y2="40"/>
+        <line x1="0" y1="90" x2="1200" y2="90"/>
+        <line x1="0" y1="140" x2="1200" y2="140"/>
+        <line x1="0" y1="190" x2="1200" y2="190"/>
+        <line x1="0" y1="240" x2="1200" y2="240"/>
+        <animate attributeName="stroke-opacity" values="0.05;0.1;0.05" dur="6s" repeatCount="indefinite"/>
+      </g>
+      <line x1="100" y1="0" x2="100" y2="300"/>
+      <line x1="300" y1="0" x2="300" y2="300"/>
+      <line x1="500" y1="0" x2="500" y2="300"/>
+      <line x1="700" y1="0" x2="700" y2="300"/>
+      <line x1="900" y1="0" x2="900" y2="300"/>
+      <line x1="1100" y1="0" x2="1100" y2="300"/>
+    </g>
+
+    <rect x="-300" y="0" width="300" height="300" fill="url(#beamGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 1500 0; 1500 0" keyTimes="0;0.6;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <g fill="#FF6B35">
+      <circle cx="90" cy="60" r="2.4" opacity="0.7">
+        <animate attributeName="cy" values="60;44;60" dur="4.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="220" r="1.8" opacity="0.5" fill="#FFB86B">
+        <animate attributeName="cy" values="220;200;220" dur="3.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1080" cy="70" r="2.2" opacity="0.6">
+        <animate attributeName="cy" values="70;92;70" dur="5.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0.8;0.25" dur="5.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1130" cy="200" r="1.6" opacity="0.5" fill="#FFB86B">
+        <animate attributeName="cy" values="200;180;200" dur="4.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1000" cy="240" r="2" opacity="0.5">
+        <animate attributeName="cy" values="240;222;240" dur="4.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.75;0.2" dur="4.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="60" cy="180" r="1.6" opacity="0.4" fill="#FFB86B">
+        <animate attributeName="cy" values="180;160;180" dur="3.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g stroke="#FF6B35" stroke-width="1.5" fill="none" opacity="0.55">
+      <path d="M30 30 L30 55 M30 30 L55 30"/>
+      <path d="M1170 30 L1170 55 M1170 30 L1145 30"/>
+      <path d="M30 270 L30 245 M30 270 L55 270"/>
+      <path d="M1170 270 L1170 245 M1170 270 L1145 270"/>
+    </g>
+
+    <text x="120" y="118" font-family="'Fira Code','Courier New',monospace" font-size="16" fill="#FF6B35" opacity="0.75">root@abhi:~$</text>
+
+    <g clip-path="url(#typeClip)">
+      <text x="120" y="168" font-family="'Fira Code','Courier New',monospace" font-size="52" font-weight="700" fill="url(#titleGrad)" filter="url(#glow)" letter-spacing="1">
+        Abhishek Ghatekar
+      </text>
+    </g>
+    <rect x="682" y="132" width="4" height="42" fill="#FF6B35">
+      <animate attributeName="x" values="0;0;682" keyTimes="0;0.19;0.2" begin="0s" dur="2s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1;0;1;0;1" dur="1s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="122" y="205" font-family="'Fira Code','Courier New',monospace" font-size="19" fill="#FFB86B" opacity="0">
+      AI + Full-Stack Engineer &#8212; Data &amp; Analytics
+      <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.9s" fill="freeze"/>
+    </text>
+
+    <g opacity="0">
+      <circle cx="124" cy="235" r="4" fill="#3FB950">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="138" y="240" font-family="'Fira Code','Courier New',monospace" font-size="13" fill="#8A94A3">building AI SaaS &#183; automation &#183; analytics</text>
+      <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.9s" fill="freeze"/>
+    </g>
+  </g>
+</svg>
