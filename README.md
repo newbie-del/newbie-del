@@ -27,9 +27,10 @@
 
 </div>
 
-<img width="100%" src="./assests/skills.svg" alt="Tech Radar" />
+<p align="center">
+  <img src="./assests/skills.svg" alt="Tech Radar" width="100%" />
+</p>
 
-<br/>
 
 <div align="center">
 
