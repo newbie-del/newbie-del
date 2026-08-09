@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="300"
+  viewBox="0 0 1200 300"
+>
+
+  <defs>
+
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C65D00" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C65D00" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#C65D00" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Typing mask -->
+    <clipPath id="typeClip">
+      <rect x="120" y="120" width="0" height="65">
+        <animate
+          attributeName="width"
+          values="0;33;66;99;132;165;198;231;264;297;330;363;396;429;462;495;528;561"
+          keyTimes="0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1"
+          calcMode="discrete"
+          begin="0.4s"
+          dur="1.7s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+  </defs>
+
+  <!-- Background -->
+  <rect
+    x="0"
+    y="0"
+    width="1200"
+    height="300"
+    rx="10"
+    fill="#080808"
+  />
+
+  <!-- Grid -->
+  <g
+    stroke="#C65D00"
+    stroke-opacity="0.10"
+    stroke-width="1"
+  >
+
+    <line x1="0" y1="40" x2="1200" y2="40"/>
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="190" x2="1200" y2="190"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1100" y1="0" x2="1100" y2="300"/>
+
+    <animate
+      attributeName="stroke-opacity"
+      values="0.07;0.16;0.07"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+
+  </g>
+
+  <!-- Moving orange beam -->
+  <rect
+    x="-300"
+    y="0"
+    width="300"
+    height="300"
+    fill="url(#beamGrad)"
+  >
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;1500 0;1500 0"
+      keyTimes="0;0.6;1"
+      dur="7s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- Corner brackets -->
+  <g
+    stroke="#C65D00"
+    stroke-width="1.5"
+    fill="none"
+    opacity="0.7"
+  >
+
+    <path d="M30 30 L30 55 M30 30 L55 30"/>
+    <path d="M1170 30 L1170 55 M1170 30 L1145 30"/>
+
+    <path d="M30 270 L30 245 M30 270 L55 270"/>
+    <path d="M1170 270 L1170 245 M1170 270 L1145 270"/>
+
+  </g>
+
+  <!-- Particles -->
+  <g fill="#C65D00">
+
+    <circle cx="90" cy="60" r="2.4" opacity="0.7">
+      <animate
+        attributeName="cy"
+        values="60;44;60"
+        dur="4.5s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.3;0.9;0.3"
+        dur="4.5s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle
+      cx="150"
+      cy="220"
+      r="1.8"
+      fill="#E59A45"
+      opacity="0.5"
+    >
+      <animate
+        attributeName="cy"
+        values="220;200;220"
+        dur="3.8s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.2;0.7;0.2"
+        dur="3.8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="1080" cy="70" r="2.2" opacity="0.6">
+      <animate
+        attributeName="cy"
+        values="70;92;70"
+        dur="5.2s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.25;0.8;0.25"
+        dur="5.2s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle
+      cx="1130"
+      cy="200"
+      r="1.6"
+      fill="#E59A45"
+      opacity="0.5"
+    >
+      <animate
+        attributeName="cy"
+        values="200;180;200"
+        dur="4.1s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.2;0.7;0.2"
+        dur="4.1s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="1000" cy="240" r="2" opacity="0.5">
+      <animate
+        attributeName="cy"
+        values="240;222;240"
+        dur="4.8s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.2;0.75;0.2"
+        dur="4.8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle
+      cx="60"
+      cy="180"
+      r="1.6"
+      fill="#E59A45"
+      opacity="0.4"
+    >
+      <animate
+        attributeName="cy"
+        values="180;160;180"
+        dur="3.6s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.15;0.6;0.15"
+        dur="3.6s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+  </g>
+
+  <!-- Terminal -->
+  <text
+    x="120"
+    y="118"
+    font-family="'Fira Code','Courier New',monospace"
+    font-size="16"
+    fill="#C65D00"
+  >
+    root@abhi:~$
+  </text>
+
+  <!-- NAME -->
+  <g clip-path="url(#typeClip)">
+
+    <text
+      x="120"
+      y="168"
+      font-family="'Fira Code','Courier New',monospace"
+      font-size="52"
+      font-weight="700"
+      fill="#C65D00"
+      letter-spacing="1"
+    >
+      Abhishek Ghatekar
+    </text>
+
+  </g>
+
+  <!-- Typing cursor -->
+  <rect
+    x="120"
+    y="128"
+    width="4"
+    height="45"
+    fill="#C65D00"
+    opacity="0"
+  >
+
+    <animate
+      attributeName="x"
+      values="120;153;186;219;252;285;318;351;384;417;450;483;516;549;582;615;648;681"
+      keyTimes="0;0.0588;0.1176;0.1765;0.2353;0.2941;0.3529;0.4118;0.4706;0.5294;0.5882;0.6471;0.7059;0.7647;0.8235;0.8824;0.9412;1"
+      calcMode="discrete"
+      begin="0.4s"
+      dur="1.7s"
+      fill="freeze"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      begin="0.4s"
+      dur="0.01s"
+      fill="freeze"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="1;0;1;0;1;0"
+      dur="1s"
+      begin="2.1s"
+      repeatCount="indefinite"
+    />
+
+  </rect>
+
+  <!-- Subtitle -->
+  <text
+    x="122"
+    y="205"
+    font-family="'Fira Code','Courier New',monospace"
+    font-size="19"
+    fill="#E59A45"
+    opacity="0"
+  >
+    AI + Full-Stack Engineer &#8212; Data &amp; Analytics
+
+    <animate
+      attributeName="opacity"
+      from="0"
+      to="1"
+      begin="2.2s"
+      dur="0.9s"
+      fill="freeze"
+    />
+
+  </text>
+
+  <!-- Status -->
+  <g opacity="0">
+
+    <circle
+      cx="124"
+      cy="235"
+      r="4"
+      fill="#C65D00"
+    >
+      <animate
+        attributeName="opacity"
+        values="1;0.3;1"
+        dur="1.8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <text
+      x="138"
+      y="240"
+      font-family="'Fira Code','Courier New',monospace"
+      font-size="13"
+      fill="#D9822B"
+    >
+      building AI SaaS &#183; automation &#183; analytics
+    </text>
+
+    <animate
+      attributeName="opacity"
+      from="0"
+      to="1"
+      begin="2.7s"
+      dur="0.9s"
+      fill="freeze"
+    />
+
+  </g>
+
+</svg>
