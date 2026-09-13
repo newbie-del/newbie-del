@@ -103,8 +103,8 @@ highlights:
     end-to-end, from data pipeline / backend to deployed UI
   - Integrated LLM APIs (OpenAI, Gemini) and real-time voice infra (LiveKit)
     into a working product
-  - Built analytics pipelines cleaning and modeling 8,500+ real-world
-    records for business decision-making
+  - Built analytics pipelines processing and analyzing 12.2M+ real-world mortgage
+    applications for credit risk insights and business decision-making
 tags: [AI Integration, Full-Stack, Data Analytics, SaaS Architecture]
 ```
 
@@ -112,9 +112,8 @@ tags: [AI Integration, Full-Stack, Data Analytics, SaaS Architecture]
 
 ```yaml
 degree:    BE, Computer Engineering
-school:    Universal College of Engineering, Mumbai University
+University:    Mumbai University
 duration:  Aug 2023 – Present
-cgpa:      6.00 / 10.00
 ```
 
 ### 🔭 `cat current-focus.yaml`
@@ -125,7 +124,7 @@ learning:
   - MLOps and cloud AI workflows (Azure)
 
 building:
-  - AlphaLens AI — multi-agent financial intelligence platform
+  - ClarityLedger — multi-agent financial intelligence platform
     (FastAPI, LangGraph, RAG)
   - ClickFlow — browser automation agent
 
