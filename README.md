@@ -142,7 +142,13 @@ open_to:
 </tr>
 </table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=newbie-del&bg_color=0B0F14&color=FF6B35&line=FF6B35&point=FFB86B&area=true&hide_border=true&cache_seconds=3600" width="98%"/>
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/newbie-del/newbie-del/activity-assets/activity-365d.svg"
+    width="98%"
+    alt="GitHub contribution activity"
+  />
+</p>
 
 <br/><br/>
 
